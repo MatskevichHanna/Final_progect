@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 def delete_row(bd, rows_numbers):
     """Поулчает на вход адрес БД и список ID строк, которые нужно удалить из БД, ничего не возвращает. """
     existing = []
